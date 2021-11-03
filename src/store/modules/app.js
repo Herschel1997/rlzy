@@ -1,10 +1,14 @@
 import Cookies from 'js-cookie'
 
 const state = {
+  // 侧边栏的配置
   sidebar: {
+    // 是否开启侧边栏
     opened: Cookies.get('sidebarStatus') ? !!+Cookies.get('sidebarStatus') : true,
+    // 是否需要动画
     withoutAnimation: false
   },
+  // 设置信息(浏览器还是移动端)
   device: 'desktop'
 }
 

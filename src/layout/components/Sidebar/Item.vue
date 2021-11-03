@@ -1,6 +1,7 @@
 <script>
 export default {
   name: 'MenuItem',
+  // 函数组件， 函数组件没有this， 函数组件没有template模板， 模板全靠 render函数渲染！
   functional: true,
   props: {
     icon: {

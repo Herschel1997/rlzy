@@ -31,6 +31,9 @@ export default {
       'sidebar'
     ]),
     routes() {
+      console.log(this.$router.options.routes)
+      // this.$router.options.routes 是指当前项目的完整的路由映射表
+      // 静态路由+动态路由
       return this.$router.options.routes
     },
     activeMenu() {

@@ -1,3 +1,4 @@
+// 导入默认自定义配置
 import defaultSettings from '@/settings'
 
 const { showSettings, fixedHeader, sidebarLogo } = defaultSettings

@@ -1,9 +1,18 @@
+// 自定义的一些样式
+
+// 导入变量样式
 @import './variables.scss';
+// 导入混入样式
 @import './mixin.scss';
+// 导入过渡样式
 @import './transition.scss';
+// 导入覆盖element-ui的样式
 @import './element-ui.scss';
+// 导入侧边栏的样式
 @import './sidebar.scss';
-@import "common";
+// 引入自己书写的样式
+@import './common.scss';
+
 
 body {
   height: 100%;
